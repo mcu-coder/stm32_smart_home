@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Wang Administrator, shuangyulin, LIC=NQQMA-1N5XR-HLQCL-0MVY5-XKRD9-EJBGW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Software\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\新建文件夹\stm32_smart_home\1.源代码\Project\MDK-ARM\SmartHome.uvprojx
+Project File Date:  01/02/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Software\Keil_v5\ARM\ARMCC\Bin'
+Build target 'SmartHome'
+compiling AppSys.c...
+..\SysApp\AppSys.c(122): warning:  #223-D: function "MotorCCwStep" declared implicitly
+  		MotorCCwStep(1000);
+..\SysApp\AppSys.c(151): warning:  #177-D: variable "psCurrentDP"  was declared but never referenced
+  	dataPoint_t *psCurrentDP = (dataPoint_t *)pvParam;
+..\SysApp\AppSys.c(215): warning:  #223-D: function "GPIO_TogglePin" declared implicitly
+  			
+ARN_LED_FLASH;
+..\SysApp\AppSys.c(314): warning:  #177-D: variable "p_dataPoint"  was declared but never referenced
+  	dataPoint_t	*p_dataPoint = p_SysParamHandle->p_DataPoint;
+..\SysApp\AppSys.c(357): warning:  #177-D: variable "str"  was declared but never referenced
+  	char str[16] = {0};
+..\SysApp\AppSys.c(165): warning:  #177-D: function "KeyEventHandle"  was declared but never referenced
+  static void KeyEventHandle( u8 u8_code)
+..\SysApp\AppSys.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=26620 RO-data=2560 RW-data=2276 ZI-data=1916  
+FromELF: creating hex file...
+".\obj\SmartLock.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_SmartHome
+  D:\Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
